@@ -1,0 +1,12 @@
+{
+  "name": "imi/imi",
+  "description": "Эта библиотека поможет создать ваш простой веб сайт с маленьнкой функциональностью.",
+  "minimum-stability": "stable",
+  "license": "AGPL-3.0-only",
+  "authors": [
+    {
+      "name": "flexice",
+      "email": "fl3xice@yandex.ru"
+    }
+  ]
+}
