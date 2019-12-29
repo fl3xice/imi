@@ -16,6 +16,7 @@
     }
   },
   "require": {
-    "amphp/uri": "v0.1.4"
+    "amphp/uri": "v0.1.4",
+    "curl/curl": "2.2.0"
   }
 }

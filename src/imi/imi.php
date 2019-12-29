@@ -34,4 +34,12 @@ class imi
     {
         return $this->uri;
     }
+
+    /**
+     * @return false|string
+     */
+    public function getNowTime()
+    {
+        return date("H:i", time());
+    }
 }
