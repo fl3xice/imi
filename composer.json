@@ -14,5 +14,8 @@
       "imi\\": "src/imi",
       "imi\\interfaces\\": "src/imi/interfaces"
     }
+  },
+  "require": {
+    "amphp/uri": "v0.1.4"
   }
 }

@@ -4,6 +4,8 @@
 namespace imi;
 
 
+use Amp\Uri\Uri;
+
 class imi
 {
     private $uri;
@@ -16,20 +18,20 @@ class imi
     }
 
     /**
-     * @param uri $uri
-     * @return uri
+     * @param uiuri $uri
+     * @return uiuri
      */
-    public function saveUri(uri $uri)
+    public function saveUri(uiuri $uri)
     {
         $this->uri = $uri;
         return $this->uri;
     }
 
     /**
-     * @return string
+     * @return uiuri
      */
-    public function getUri()
+    public function getUiUri()
     {
-        return implode($this->uri->getBox());
+        return $this->uri;
     }
 }
